@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "4f8d1b46-535b-4771-ad28-93eb54c0c3e8",
+		"name": "Alpcan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Basarili\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Basarisiz\", function () {\r",
+							"    pm.response.to.have.not.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://generator.swagger.io/api/gen/clients/ada",
+					"protocol": "https",
+					"host": [
+						"generator",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"api",
+						"gen",
+						"clients",
+						"ada"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Basarili\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Basarisiz\", function () {\r",
+							"    pm.response.to.have.not.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"spec\": {},\r\n  \"options\": {\r\n    \"additionalProp1\": \"alp\",\r\n    \"additionalProp2\": \"can\",\r\n    \"additionalProp3\": \"gazan\"\r\n  },\r\n  \"swaggerUrl\": \"http://petstore.swagger.io/v2/swagger.json\",\r\n  \"authorizationValue\": {\r\n    \"value\": \"sad\",\r\n    \"type\": \"ebebe\",\r\n    \"keyName\": \"stridd\"\r\n  },\r\n  \"securityDefinition\": {\r\n    \"type\": \"strinth\",\r\n    \"description\": \"strfdfing\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://generator.swagger.io/api/gen/clients/ada",
+					"protocol": "https",
+					"host": [
+						"generator",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"api",
+						"gen",
+						"clients",
+						"ada"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
