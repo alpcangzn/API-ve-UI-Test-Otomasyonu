@@ -35,17 +35,11 @@
 					}
 				],
 				"url": {
-					"raw": "https://generator.swagger.io/api/gen/clients/ada",
-					"protocol": "https",
+					"raw": "{{anaUrl}}/ada",
 					"host": [
-						"generator",
-						"swagger",
-						"io"
+						"{{anaUrl}}"
 					],
 					"path": [
-						"api",
-						"gen",
-						"clients",
 						"ada"
 					]
 				}
@@ -95,17 +89,11 @@
 					}
 				},
 				"url": {
-					"raw": "https://generator.swagger.io/api/gen/clients/ada",
-					"protocol": "https",
+					"raw": "{{anaUrl}}/ada",
 					"host": [
-						"generator",
-						"swagger",
-						"io"
+						"{{anaUrl}}"
 					],
 					"path": [
-						"api",
-						"gen",
-						"clients",
 						"ada"
 					]
 				}

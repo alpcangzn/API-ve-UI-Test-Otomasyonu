@@ -1,0 +1,92 @@
+{
+	"id": "d6d27174-c07c-426b-8f90-2c9b584c0cae",
+	"name": "Alpcan",
+	"timestamp": "2021-08-09T05:33:46.236Z",
+	"collection_id": "4f8d1b46-535b-4771-ad28-93eb54c0c3e8",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 2,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "3adcb699-5c2a-40da-8744-da3a48f4d1f5",
+			"name": "GET",
+			"url": "https://generator.swagger.io/api/gen/clients/ada",
+			"time": 761,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Basarili": true,
+				"Basarisiz": false
+			},
+			"testPassFailCounts": {
+				"Basarili": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Basarisiz": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				761
+			],
+			"allTests": [
+				{
+					"Basarili": true,
+					"Basarisiz": false
+				}
+			]
+		},
+		{
+			"id": "d3932818-25b5-47b9-9d68-a681a73829af",
+			"name": "POST",
+			"url": "https://generator.swagger.io/api/gen/clients/ada",
+			"time": 203,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Basarili": false,
+				"Basarisiz": true
+			},
+			"testPassFailCounts": {
+				"Basarili": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Basarisiz": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				203
+			],
+			"allTests": [
+				{
+					"Basarili": false,
+					"Basarisiz": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 964,
+	"collection": {
+		"requests": [
+			{
+				"id": "3adcb699-5c2a-40da-8744-da3a48f4d1f5",
+				"method": "GET"
+			},
+			{
+				"id": "d3932818-25b5-47b9-9d68-a681a73829af",
+				"method": "POST"
+			}
+		]
+	}
+}
